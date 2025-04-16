@@ -27,6 +27,7 @@ if (isNaN(peso) || isNaN(altura) || peso <= 0 || altura <= 0) {
   } else if (resultado > 39.9) {
     console.log(`Seu IMC é ${resultado}`);
     console.log('Você está com obesidade grau 3');
+    console.log('Cuidado, você pode ter problemas de saúde!');
   } else
     console.log("Valores inválidos. Digite números maiores que zero.");
 }
